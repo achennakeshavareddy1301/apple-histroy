@@ -6,135 +6,66 @@ body {
     margin-left: 5%;
     margin-right: 5%;
 }
+
 h1 {
-    font-weight: 600;
-    font-size: 4rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-header {
-    background-color: #a2179d;
-    height: 15rem;
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-    position: auto;
-    opacity: 1;
-    z-index: 1;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    border-radius:4rem;
-}
-
-.navbar {
-    margin: 0 auto;
-    height: 100%;
-}
-
-.navbar img {
-    float: left;
-    height: 75%;
-    width: auto;
-    padding-left: 2rem;
-    border-radius: 4rem;
-}
-main {
-    padding-top: 6rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-}
-
-section {
-    display: flex;
-}
-
-article {
-    flex: 1;
-    padding: 1rem;
-    margin: 0.75rem;
-}
-
-footer {
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer div {
-    background-color: #323232;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-footer img {
-    width: 8rem;
-    height: auto;
-    border-radius: 2rem;
-    border-left: #5a0662;
-}
-
-.section1 {
-    background: #d6dcdd;
-    position: relative;
-    height: 10%;
-    width: 100%;
-    display: auto;
-    align-items: center;
-    justify-content: auto;
-    border-radius: 2rem;
-}
-.section1 img{
-    border-radius: 2rem;
-    background: #d6dcdd;
-
-}
-
-.section1::before {
-    content: "";
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.7;
-    border-radius: 20px;
-    z-index: 0;
-}
-
-.section1 article h1, .section1 article p {
-    position: relative;
-    color: rgb(135, 43, 154);  
-    line-height: 0.9;
-    text-align: auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-
-.section1 article h1 {
-    margin-bottom: 0;
-    text-shadow: 5px 5px 8px #ae5d1f;
-}
-
-.section1 article p {
-    font-size: 23px;
-    text-shadow: 2px 2px 8px white;
-}
-
-.section2 {
+    font-size: 3rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
-.section2 > article {
-    background-color: #9e5d52;
-    border-radius: 20px;
+h2 {
+    font-size: 2.3rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #333333;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+nav ul a {
+    color: #EDEFEE;
+    text-decoration: none;
+}
+
+nav ul a:active {
+    text-decoration: underline;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 article {
@@ -143,39 +74,71 @@ article {
     padding-bottom: 1.5rem;
 }
 
-article p + div {
-    display: flex;
-    flex: 1;
-    gap: 2rem 1rem;
+article img {
+    max-width: 100%;
+}
+
+article ul {
+    list-style: none;
+    font-size: 1.3rem;
 }
 
 article a:link {
-    color: #CDF0EA;
-    text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 article a:hover {
-    text-shadow: 2px 2px 8px #b6a4f2;
-    text-decoration: underline;
+    color: #495E57;
 }
 
 article a:active {
-    color: #CDF0EA;
-    background-color: #065d8f;
-}
-@keyframes my-animation {
-	from {
-		transform: translateY(20px);
-	}
-	to {
-		transform: translateY(0px);
-	}
-}
-.navbar{
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    color: #EDEFEE;
+    background-color: #495E57
 }
 
+main article {
+    background-color: #fbdabb79;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#hero {
+    background-image: url("../assets/Asset 21.png");
+    background-size: cover;
+    background-position: center;
+    color: #495E57;
+    text-shadow: 2px 2px 8px #FFF9B0;
+    text-align: right;
+}
+
+#hero h1 {
+    margin-right: 2rem;
+    font-weight: 600;
+    font-size: 80px;
+}
+
+#hero p {
+    max-width: 100%;
+    margin-left: 16rem;
+    margin-right: 2rem;
+}
+
+footer {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem 1rem;
+}
+
+footer p {
+    border-top: #333333;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: right;
+}
+
+footer div {
+    flex: 1;
+}
