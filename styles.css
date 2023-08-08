@@ -28,7 +28,7 @@ header p{
     font-family:cursive;
 }
 
-header img {
+#lav{
     display:flex;
     object-position: right;
     margin-left: auto;
@@ -37,7 +37,7 @@ header img {
     padding-right: 5rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    border-radius: 20px;
+    border-radius: 90px;
 }
 
 nav {
@@ -63,7 +63,7 @@ nav ul {
 }
 
 #b1 {
-    color: #31a96d;
+    color: #141816;
     text-decoration: none;
 }
 
@@ -85,7 +85,7 @@ nav ul {
 }
 
 #b2 {
-    color: #31a96d;
+    color: #141c18;
     text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ nav ul {
 }
 
 #b3{
-    color: #31a96d;
+    color: #101211;
     text-decoration: none;
 }
 
@@ -129,7 +129,7 @@ nav ul {
 }
 
 #b3 {
-    color: #31a96d;
+    color: #0e1110;
     text-decoration: none;
 }
 
@@ -151,7 +151,7 @@ nav ul {
 }
 
 #b4 {
-    color: #31a96d;
+    color: #121714;
     text-decoration: none;
 }
 
@@ -173,7 +173,7 @@ nav ul {
 }
 
 #b5 {
-    color: #31a96d;
+    color: #080b0a;
     text-decoration: none;
 }
 
@@ -189,7 +189,7 @@ nav ul {
 }
 
 #b6 {
-    color: #31a96d;
+    color: #121915;
     text-decoration: none;
 }
 
