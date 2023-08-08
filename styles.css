@@ -52,21 +52,21 @@ nav ul {
     padding-inline-start: 0rem;
 }
 
-nav ul li button {
+#b1,b2,b3,b4,b5 {
     display: inline-block;
     margin: 0.25rem;
 }
 
-nav.button {
+#b1,b2,b3,b4,b5 {
     color: #31a96d;
     text-decoration: none;
 }
 
-nav ul li button:active {
+#b1,b2,b3,b4,b5:active {
     text-decoration: underline;
 }
 
-nav ul li button:hover {
+#b1,b2,b3,b4,b5:hover {
     text-decoration: underline;
     text-decoration-thickness: 0.1rem;
     color:#3498db;
