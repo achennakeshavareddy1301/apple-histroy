@@ -57,7 +57,7 @@ nav ul li button {
     margin: 0.25rem;
 }
 
-nav ul li button {
+nav.button {
     color: #31a96d;
     text-decoration: none;
 }
