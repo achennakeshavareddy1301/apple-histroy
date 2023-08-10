@@ -27,10 +27,12 @@ header p{
     font-size: 4rem;
     font-family:cursive;
 }
+header img{
+    object-position:right;
+}
 
 #lav{
     display:flex;
-    object-position: right;
     margin-left: auto;
     margin-right: auto;
     padding-left: 5rem;
