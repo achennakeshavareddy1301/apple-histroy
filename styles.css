@@ -283,3 +283,6 @@ footer p {
 footer div {
     flex: 1;
 }
+#icon{
+    border-radius:50%;
+}
